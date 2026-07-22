@@ -1,0 +1,18 @@
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# User-created metal-specific working data
+data/working/*
+!data/working/.gitkeep
+
+# Analysis outputs
+results/*
+!results/.gitkeep
+
+# Temporary and operating-system files
+~$*
+.DS_Store
+Thumbs.db
